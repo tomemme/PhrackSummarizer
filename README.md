@@ -13,13 +13,13 @@ Python 3.6 or higher
 ```bash
 git clone https://github.com/tomemme/HTMLTextSummarizer.git
 cd HTMLTextSummarizer
--create a virtual environment for imports
+##create a virtual environment for imports
 python3 -m venv summarizer_env
 source summarizer_env/bin/activate  # On Windows: summarizer_env\Scripts\activate
 pip install -r requirements.txt
 or do individually
 pip install requests beautifulsoup4 transformers
---close venv
+##close venv
 deactivate
 
 
