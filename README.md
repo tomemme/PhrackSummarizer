@@ -8,6 +8,7 @@ HTMLTextSummarizer is a Python-based tool designed to summarize text content ext
 - Filters out irrelevant content like ASCII art or headers.
 - Summarizes text using transformer-based models.
 
+Python 3.6 or higher
 ## Installation
 ```bash
 git clone https://github.com/tomemme/HTMLTextSummarizer.git
