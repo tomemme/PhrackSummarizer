@@ -1,7 +1,7 @@
-# HTMLTextSummarizer
+# PhrackPhilesSummarizer
 
 ## Overview
-HTMLTextSummarizer is a Python-based tool designed to summarize text content extracted from HTML files. While it's currently a general-purpose tool, it can be adapted to specific use cases such as summarizing technical articles, research papers, or Phrack magazine issues.
+PhrackPhilesSummarizer is a Python-based tool designed to summarize text content extracted from Phrack Philes. It's created from a general-purpose tool, called HTMLTextSummarizerit used for summarizing technical articles, research papers, or Phrack magazine issues.
 
 ## Features
 - Extracts and cleans text from HTML files.
@@ -12,7 +12,7 @@ Python 3.6 or higher
 ## Installation
 ```bash
 git clone https://github.com/tomemme/HTMLTextSummarizer.git
-cd HTMLTextSummarizer
+cd PhrackSummarizer
 ##create a virtual environment for imports
 python3 -m venv summarizer_env
 source summarizer_env/bin/activate  # On Windows: summarizer_env\Scripts\activate
