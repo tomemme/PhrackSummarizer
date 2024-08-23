@@ -12,4 +12,13 @@ HTMLTextSummarizer is a Python-based tool designed to summarize text content ext
 ```bash
 git clone https://github.com/tomemme/HTMLTextSummarizer.git
 cd HTMLTextSummarizer
+-create a virtual environment for imports
+python3 -m venv phrack_summarizer_env
+source phrack_summarizer_env/bin/activate  # On Windows: phrack_summarizer_env\Scripts\activate
 pip install -r requirements.txt
+or do individually
+pip install requests beautifulsoup4 transformers
+--close venv
+deactivate
+
+
